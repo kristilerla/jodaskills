@@ -11,8 +11,9 @@ const CourseViewer = ({ file }) => {
     fetch(`/${file}`)
       .then(res => res.text())
       .then(text => {
-        setContent(text);
-        const lines = text.split('\n');
+
+            const lines = text.split('\n');
+    
         const h1 = lines.find(line => line.startsWith('# '));
         setCourseTitle(h1 ? h1.replace('# ', '').trim() : '');
 
