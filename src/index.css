@@ -35,3 +35,28 @@ h1, h2, h3 {
 .markdown-body {
   padding: 2rem;
 }
+/* Heading 1 – Kursoverskrift */
+.markdown-body h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: #1B1F23; /* mørk grå/sort */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Heading 2 – Underside */
+.markdown-body h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: #24699f; /* Jodacare-blå */
+}
+
+/* Heading 3 – Modul */
+.markdown-body h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #555;
+}
