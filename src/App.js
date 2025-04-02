@@ -1,12 +1,10 @@
-import React from 'react';
-import MarkdownViewer from './MarkdownViewer';
-import './index.css';
+iimport React from 'react';
+import CourseViewer from './CourseViewer';
 
 function App() {
   return (
     <div className="container">
-      <h1>Jodacare Markdown Demo</h1>
-      <MarkdownViewer />
+      <CourseViewer file="ernaering_clean.md" />
     </div>
   );
 }
