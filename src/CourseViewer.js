@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 
 const CourseViewer = ({ file }) => {
-  const [content, setContent] = useState('');
+
   const [chapters, setChapters] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [courseTitle, setCourseTitle] = useState('');
